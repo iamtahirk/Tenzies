@@ -106,6 +106,12 @@ const App = () => {
     if (!tenzies) {
       // Increment the roll count (when the user clicks on the roll button)
       setRollCount(prevCount => prevCount + 1)
+
+      // Start the timer if it hasn't been started yet
+      if (!gameStarted) {
+        setGameStarted(true);
+        setTimerRunning(true);
+      }
       
       // Make sure to roll only the non-held dice
       setDice(oldDice => oldDice.map(die => (die.isHeld ? die : generateNewDie())))
@@ -202,7 +208,7 @@ const App = () => {
         </div>
 
         <h1 className="title">Tenzies</h1>
-        
+
         <p className="instructions">
           Roll until all dice are the same. Click each die to freeze it at its current value
           between rolls.
