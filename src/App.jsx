@@ -176,7 +176,6 @@ const App = () => {
         </div>
 
         {/* Modal for displaying high scores */}
-        <div className=''></div>
           <div className={modal ? 'modal show' : 'modal'}>
           <i className="fa fa-close" onClick={showHideModal}></i>
           <h2 className="highscore">High Scores</h2>
