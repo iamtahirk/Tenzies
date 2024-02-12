@@ -1,6 +1,6 @@
 # Tenzies
 
-Tenzies is a React-based dice game where the objective is to roll dice until all of them display the same number. This project originated from the React Basic course by [Bob Ziroll](https://twitter.com/bobziroll) as part of the [Scrimba](https://scrimba.com/) Frontend Career Path, with enhancements and additional features incorporated during development.
+[Tenzies](https://tenziesreactjs.netlify.app/) is a React-based dice game where the objective is to roll dice until all of them display the same number. This project originated from the React Basic course by [Bob Ziroll](https://twitter.com/bobziroll) as part of the [Scrimba](https://scrimba.com/) Frontend Career Path, with enhancements and additional features incorporated during development.
 
 ## Additional Features
 
